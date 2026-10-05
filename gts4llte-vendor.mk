@@ -108,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/graphite_ipc_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/graphite_ipc_platform_info.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/hdr_tm_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_tm_config.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hearing_aid_audio_policy_configuration.xml \
+    vendor/samsung/gts4llte/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-qti.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/argos.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/argos.rc \
@@ -655,7 +656,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.dynamicdds@1.0 \
     vendor.qti.hardware.data.latency@1.0 \
     vendor.qti.hardware.fingerprint@1.0 \
-    vendor.qti.hardware.fm@1.0 \
     vendor.qti.hardware.iop@1.0 \
     vendor.qti.hardware.iop@2.0 \
     vendor.qti.hardware.qdutils_disp@1.0 \
@@ -918,10 +918,14 @@ PRODUCT_PACKAGES += \
     libvqzip \
     libwvhidl \
     libwvdrmengine \
+    android.hardware.bluetooth@1.0-impl-qti \
     gatekeeper.mdfpp \
     keystore.mdfpp \
+    vendor.qti.hardware.bluetooth_sar@1.1-impl \
+    vendor.qti.hardware.btconfigstore@2.0-impl \
     libadaptlaunch \
     libappclassifier \
+    libbtnv \
     libgameoptfeature \
     libkeymaster2_mdfpp \
     libkeymaster_helper_vendor \
@@ -933,8 +937,12 @@ PRODUCT_PACKAGES += \
     libmeters \
     libpdmapper \
     libreffeature \
+    libsoc_helper \
     libthermalioctl \
     libvkservice \
+    vendor.qti.hardware.bluetooth_sar@1.0 \
+    vendor.qti.hardware.bluetooth_sar@1.1 \
+    vendor.qti.hardware.fm@1.0 \
     vendor.samsung.hardware.base@1.0 \
     vendor.samsung.hardware.media.converter@1.0 \
     vendor.samsung.hardware.miscpower@2.0 \
@@ -991,6 +999,7 @@ PRODUCT_PACKAGES += \
     hdcp1prov \
     hdcp2p2prov \
     hvdcp_opti \
+    android.hardware.bluetooth@1.0-service-qti \
     android.hardware.drm@1.2-service.widevine \
     android.hardware.gnss@2.0-service-qti \
     macloader \
