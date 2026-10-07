@@ -919,6 +919,7 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libwvdrmengine \
     android.hardware.bluetooth@1.0-impl-qti \
+    com.dsi.ant@1.0-impl \
     gatekeeper.mdfpp \
     keystore.mdfpp \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
