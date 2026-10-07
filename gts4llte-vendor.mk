@@ -492,7 +492,6 @@ PRODUCT_PACKAGES += \
     liboemaids_vendor \
     liboemcrypto \
     libpadm \
-    libpdmapper \
     libpdnotifier \
     libperfconfig \
     libperfgluelayer \
@@ -932,6 +931,7 @@ PRODUCT_PACKAGES += \
     libmdmimgload \
     libmeters-ns \
     libmeters \
+    libpdmapper \
     libreffeature \
     libthermalioctl \
     libvkservice \
