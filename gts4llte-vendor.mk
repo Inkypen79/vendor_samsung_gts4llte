@@ -65,24 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Headset_cal.acdb \
     vendor/samsung/gts4llte/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/gts4llte/proprietary/vendor/etc/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Speaker_cal.acdb \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/audio_configs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_configs.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/audio_effects_common.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects_common.conf \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/audio_effects_sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects_sec.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/audio_output_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_output_policy.conf \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/audio_platform_info_diff.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_diff.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/audio_platform_info_i2s.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_i2s.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/audio_policy_configuration_sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_sec.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/audio_policy_volumes_sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes_sec.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/audio_tuning_mixer.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer.txt \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/audio_tuning_mixer_tavil.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer_tavil.txt \
     vendor/samsung/gts4llte/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/samsung/gts4llte/proprietary/vendor/etc/carrier/ACG/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/ACG/permissions/android.hardware.telephony.cdma.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/carrier/BST/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/BST/permissions/android.hardware.telephony.cdma.xml \
@@ -96,7 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/carrier/XAS/permissions/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/carrier/XAS/permissions/android.hardware.telephony.cdma.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/firmware/P08UL_s5k4h5yc_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/P08UL_s5k4h5yc_chromatix.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/firmware/Y13UL_s5k3l2xx_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/Y13UL_s5k3l2xx_chromatix.xml \
@@ -107,7 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/samsung/gts4llte/proprietary/vendor/etc/graphite_ipc_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/graphite_ipc_platform_info.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/hdr_tm_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_tm_config.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hearing_aid_audio_policy_configuration.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-qti.rc \
@@ -119,7 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/init/ipacm-diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipacm-diag.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/pa_daemon_qsee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pa_daemon_qsee.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/snap_utility.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snap_utility.rc \
@@ -135,7 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.base@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.base@1.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.light@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.light@3.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service.rc \
@@ -144,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.trustonic.tee@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.trustonic.teeregistry@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.teeregistry@1.0-service.rc \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/wifi_qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_qcom.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/samsung/gts4llte/proprietary/vendor/etc/libnfc-mtp-NQ3XX.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-NQ3XX.conf \
@@ -180,13 +158,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/mixer_paths_dtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_dtp.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/mixer_paths_i2s.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_i2s.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/mixer_paths_qvr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_qvr.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/mixer_paths_skuk.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_skuk.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/mixer_paths_tavil.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tavil.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/samsung/gts4llte/proprietary/vendor/etc/mtu-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtu-conf.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/pdpcnt-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pdpcnt-conf.xml \
@@ -202,7 +173,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/playback_record_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/playback_record_audio_policy_configuration.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
     vendor/samsung/gts4llte/proprietary/vendor/etc/plmn_delta_attaio.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_attaio.bin \
     vendor/samsung/gts4llte/proprietary/vendor/etc/plmn_delta_hktw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_hktw.bin \
@@ -213,7 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/samsung/gts4llte/proprietary/vendor/etc/public.libraries.txt.backup:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt.backup \
     vendor/samsung/gts4llte/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_ANA38401_AMSA05RB01_WQXGA.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_ANA38401_AMSA05RB01_WQXGA.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/saiv/fd/fast_face_detect_model_full_angle_16_CHAR.dat:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/fd/fast_face_detect_model_full_angle_16_CHAR.dat \
     vendor/samsung/gts4llte/proprietary/vendor/etc/saiv/gae/MeanFea.bin:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/gae/MeanFea.bin \
     vendor/samsung/gts4llte/proprietary/vendor/etc/saiv/gae/ParaFea.bin:$(TARGET_COPY_OUT_VENDOR)/etc/saiv/gae/ParaFea.bin \
@@ -238,14 +207,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/snap_gpu_kernel_32.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_32.bin \
     vendor/samsung/gts4llte/proprietary/vendor/etc/snap_gpu_kernel_64.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_64.bin \
     vendor/samsung/gts4llte/proprietary/vendor/etc/somxreg.conf:$(TARGET_COPY_OUT_VENDOR)/etc/somxreg.conf \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9330.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_wcd9330.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9340.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_wcd9340.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/str/str_preference_data.dat:$(TARGET_COPY_OUT_VENDOR)/etc/str/str_preference_data.dat \
     vendor/samsung/gts4llte/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/tms_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/tms_audio_policy_configuration.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/samsung/gts4llte/proprietary/vendor/etc/wifi/indoorchannel.info:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/indoorchannel.info \
     vendor/samsung/gts4llte/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
@@ -335,12 +298,8 @@ PRODUCT_PACKAGES += \
     libQTapGLES \
     libq3dtools_adreno \
     libq3dtools_esx \
-    ftm_fm_lib \
-    activity_recognition.msm8998 \
-    audio.primary.default \
+    android.hardware.gnss@2.0-impl-qti \
     gatekeeper.msm8998 \
-    lights.msm8998 \
-    local_time.default \
     vendor.qti.gnss@3.0-impl \
     vendor.qti.hardware.iop@2.0-impl \
     vendor.qti.hardware.qseecom@1.0-impl \
@@ -348,7 +307,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.soter@1.0-impl \
     vendor.samsung.hardware.camera.provider@3.0-impl \
     vendor.samsung.hardware.gnss@2.0-impl-sec \
-    vendor.samsung.hardware.light@3.0-impl \
     vendor.samsung.hardware.snap@1.1-impl \
     vulkan.msm8998 \
     libAlacSwDec \
@@ -493,6 +451,7 @@ PRODUCT_PACKAGES += \
     liboemaids_vendor \
     liboemcrypto \
     libpadm \
+    libpdmapper \
     libpdnotifier \
     libperfconfig \
     libperfgluelayer \
@@ -560,7 +519,6 @@ PRODUCT_PACKAGES += \
     libsensorndkbridge \
     libsi \
     libskewknob \
-    libskeymaster3device \
     libsnaace \
     libsnamrnb \
     libsnamrwb \
@@ -655,13 +613,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.connection@1.1 \
     vendor.qti.hardware.data.dynamicdds@1.0 \
     vendor.qti.hardware.data.latency@1.0 \
-    vendor.qti.hardware.fingerprint@1.0 \
     vendor.qti.hardware.iop@1.0 \
     vendor.qti.hardware.iop@2.0 \
     vendor.qti.hardware.qdutils_disp@1.0 \
     vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
-    vendor.qti.hardware.radio.atcmdfwd@1.0 \
     vendor.qti.hardware.scve.objecttracker@1.0 \
     vendor.qti.hardware.scve.panorama@1.0 \
     vendor.qti.hardware.soter@1.0 \
@@ -682,7 +638,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.camera.device@4.0 \
     vendor.samsung.hardware.camera.provider@3.0 \
     vendor.samsung.hardware.gnss@2.0 \
-    vendor.samsung.hardware.light@3.0 \
     vendor.samsung.hardware.radio.bridge@2.0 \
     vendor.samsung.hardware.radio.channel@2.0 \
     vendor.samsung.hardware.snap@1.0 \
@@ -757,9 +712,7 @@ PRODUCT_PACKAGES += \
     Y13UL_libchromatix_s5k3l2xx_video_vtcall \
     Y13UL_libchromatix_s5k3l2xx_zsl_preview \
     Y13UL_libchromatix_s5k3l2xx_zsl_video \
-    android.hardware.soundtrigger@2.0-impl \
     android.hardware.soundtrigger@2.1-impl \
-    audio.primary.qcom \
     camera.msm8998 \
     sound_trigger.primary.msm8998 \
     libIDDQD_interface \
@@ -774,7 +727,6 @@ PRODUCT_PACKAGES += \
     lib_SamsungRec_06005 \
     lib_SoundAlive_SRC384_ver320 \
     lib_soundaliveresampler \
-    liba2dpoffload \
     libactuator_dw9807 \
     libadm \
     libadpcmdec \
@@ -782,6 +734,7 @@ PRODUCT_PACKAGES += \
     libadsp_hvx_stub \
     libaudio_log_utils \
     libaudio_soundtrigger \
+    libbatterylistener \
     libchromatix_s5k5e6yx_common \
     libchromatix_s5k5e6yx_cpp_liveshot \
     libchromatix_s5k5e6yx_cpp_preview \
@@ -795,17 +748,12 @@ PRODUCT_PACKAGES += \
     libchromatix_s5k5e6yx_video \
     libchromatix_s5k5e6yx_zsl_preview_bu64244gwz \
     libchromatix_s5k5e6yx_zsl_video_bu64244gwz \
-    libcirrusspkrprot \
-    libcomprcapture \
     libcppf \
     libdeccfg \
     libdrc \
     libdsd2pcm \
-    libexthwplugin \
     libflash_pmic \
-    libhdmiedid \
     libhdmipassthru \
-    libhfp \
     libjpegdhw \
     libjpegdmahw \
     libjpegehw \
@@ -908,8 +856,6 @@ PRODUCT_PACKAGES += \
     libremosaic_daemon \
     libsamsungVoipResampler \
     libsmwrapper \
-    libsndmonitor \
-    libspkrprot \
     libstagefright_bufferqueue_helper_vendor \
     libstagefright_omx_vendor \
     libstagefright_soft_ac4dec \
@@ -918,10 +864,12 @@ PRODUCT_PACKAGES += \
     libvqzip \
     libwvhidl \
     libwvdrmengine \
+    ftm_fm_lib \
     android.hardware.bluetooth@1.0-impl-qti \
     com.dsi.ant@1.0-impl \
     gatekeeper.mdfpp \
     keystore.mdfpp \
+    keystore.msm8998 \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@2.0-impl \
     libadaptlaunch \
@@ -936,7 +884,6 @@ PRODUCT_PACKAGES += \
     libmdmimgload \
     libmeters-ns \
     libmeters \
-    libpdmapper \
     libreffeature \
     libsoc_helper \
     libthermalioctl \
@@ -953,16 +900,16 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.wifi@2.0 \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.teeregistry@1.0 \
-    libadsp_hvx_add_constant \
-    libadsp_hvx_skel \
-    libapps_mem_heap \
-    libdspCV_skel \
-    libfastcvadsp \
-    libfastcvadsp_skel \
-    libscveBlobDescriptor_skel \
-    libscveObjectSegmentation_skel \
-    libscveT2T_skel \
-    libsns_low_lat_stream_skel \
+    vendor_lib_rfsa_adsp_libadsp_hvx_add_constant_so \
+    vendor_lib_rfsa_adsp_libadsp_hvx_skel_so \
+    vendor_lib_rfsa_adsp_libapps_mem_heap_so \
+    vendor_lib_rfsa_adsp_libdspCV_skel_so \
+    vendor_lib_rfsa_adsp_libfastcvadsp_so \
+    vendor_lib_rfsa_adsp_libfastcvadsp_skel_so \
+    vendor_lib_rfsa_adsp_libscveBlobDescriptor_skel_so \
+    vendor_lib_rfsa_adsp_libscveObjectSegmentation_skel_so \
+    vendor_lib_rfsa_adsp_libscveT2T_skel_so \
+    vendor_lib_rfsa_adsp_libsns_low_lat_stream_skel_so \
     vendor.qti.hardware.cvp@1.0-adapter-helper \
     vendor.qti.hardware.data.iwlan@1.0 \
     vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper \
@@ -972,7 +919,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0-service-qti.xml \
     vendor.qti.gnss@3.0-service.xml \
     vendor.samsung.hardware.base@1.0-service.xml \
-    ATFWD-daemon \
     PktRspTest \
     StoreKeybox \
     adpl \
@@ -1015,7 +961,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor.samsung.hardware.base@1.0-service \
     vendor.samsung.hardware.camera.provider@3.0-service \
-    vendor.samsung.hardware.light@3.0-service \
     vendor.samsung.hardware.media.converter@1.0-service \
     vendor.samsung.hardware.miscpower@2.0-service \
     vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service \
@@ -1023,8 +968,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.wifi@2.0-service \
     vendor.trustonic.tee@1.0-service \
     vendor.trustonic.teeregistry@1.0-service \
-    iof_vendor \
-    ipacm-diag \
     irsc_util \
     loc_launcher \
     lowi-server \
