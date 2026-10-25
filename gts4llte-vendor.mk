@@ -698,6 +698,7 @@ PRODUCT_PACKAGES += \
     Y13UL_libchromatix_s5k3l2xx_video_vtcall \
     Y13UL_libchromatix_s5k3l2xx_zsl_preview \
     Y13UL_libchromatix_s5k3l2xx_zsl_video \
+    android.frameworks.displayservice@1.0 \
     android.hardware.soundtrigger@2.1-impl \
     camera.msm8998 \
     sound_trigger.primary.msm8998 \
