@@ -114,7 +114,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.base@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.base@1.0-service.rc \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service.rc \
@@ -277,13 +276,6 @@ PRODUCT_PACKAGES += \
     libhdcp2 \
     libstagefright_hdcp \
     libsns_low_lat_stream_skel \
-    android.hardware.camera.provider@2.4-legacy \
-    android.hardware.camera.provider@2.5-legacy \
-    camera.device@1.0-impl \
-    camera.device@3.2-impl \
-    camera.device@3.3-impl \
-    camera.device@3.4-impl \
-    camera.device@3.5-impl \
     com.qualcomm.qti.dpm.api@1.0 \
     com.qualcomm.qti.imscmservice@1.0 \
     com.qualcomm.qti.imscmservice@2.0 \
@@ -305,7 +297,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
-    vendor.samsung.hardware.camera.provider@3.0-impl \
     vendor.samsung.hardware.gnss@2.0-impl-sec \
     vendor.samsung.hardware.snap@1.1-impl \
     vulkan.msm8998 \
@@ -632,11 +623,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency@2.0 \
     vendor.qti.power.pasrmanager@1.0 \
     vendor.qti.voiceprint@1.0 \
-    vendor.samsung.camera.device@1.0-impl \
-    vendor.samsung.camera.device@4.0-impl \
-    vendor.samsung.hardware.camera.device@1.0 \
-    vendor.samsung.hardware.camera.device@4.0 \
-    vendor.samsung.hardware.camera.provider@3.0 \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.radio.bridge@2.0 \
     vendor.samsung.hardware.radio.channel@2.0 \
@@ -960,7 +946,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.soter@1.0-service \
     vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor.samsung.hardware.base@1.0-service \
-    vendor.samsung.hardware.camera.provider@3.0-service \
     vendor.samsung.hardware.media.converter@1.0-service \
     vendor.samsung.hardware.miscpower@2.0-service \
     vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service \
