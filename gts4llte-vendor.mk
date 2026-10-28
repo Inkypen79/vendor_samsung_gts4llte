@@ -583,7 +583,6 @@ PRODUCT_PACKAGES += \
     libqcbassboost \
     libqcreverb \
     libqcvirt \
-    libsamsungSoundbooster_plus \
     libsamsungSoundbooster_tdm \
     libswdap \
     vendor.display.color@1.0 \
@@ -700,6 +699,7 @@ PRODUCT_PACKAGES += \
     Y13UL_libchromatix_s5k3l2xx_zsl_video \
     android.frameworks.displayservice@1.0 \
     android.hardware.soundtrigger@2.1-impl \
+    audio.primary.sec_msm8998 \
     camera.msm8998 \
     sound_trigger.primary.msm8998 \
     libIDDQD_interface \
@@ -714,6 +714,7 @@ PRODUCT_PACKAGES += \
     lib_SamsungRec_06005 \
     lib_SoundAlive_SRC384_ver320 \
     lib_soundaliveresampler \
+    liba2dpoffload \
     libactuator_dw9807 \
     libadm \
     libadpcmdec \
@@ -735,12 +736,17 @@ PRODUCT_PACKAGES += \
     libchromatix_s5k5e6yx_video \
     libchromatix_s5k5e6yx_zsl_preview_bu64244gwz \
     libchromatix_s5k5e6yx_zsl_video_bu64244gwz \
+    libcirrusspkrprot \
+    libcomprcapture \
     libcppf \
     libdeccfg \
     libdrc \
     libdsd2pcm \
+    libexthwplugin \
     libflash_pmic \
+    libhdmiedid \
     libhdmipassthru \
+    libhfp \
     libjpegdhw \
     libjpegdmahw \
     libjpegehw \
@@ -843,6 +849,8 @@ PRODUCT_PACKAGES += \
     libremosaic_daemon \
     libsamsungVoipResampler \
     libsmwrapper \
+    libsndmonitor \
+    libspkrprot \
     libstagefright_bufferqueue_helper_vendor \
     libstagefright_omx_vendor \
     libstagefright_soft_ac4dec \

@@ -13532,52 +13532,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsamsungSoundbooster_plus",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/soundfx/libsamsungSoundbooster_plus.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "liblog",
-                "lib_SoundBooster_ver900",
-                "libsecaudioinfo",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/libsamsungSoundbooster_plus.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "liblog",
-                "lib_SoundBooster_ver900",
-                "libsecaudioinfo",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "soundfx",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libsamsungSoundbooster_tdm",
     owner: "samsung",
     strip: {
@@ -17625,6 +17579,50 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "audio.primary.sec_msm8998",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/hw/audio.primary.sec_msm8998.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "liblog",
+                "libcutils",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libaudioutils",
+                "libexpat",
+                "libhwbinder",
+                "libhidlbase",
+                "libhidltransport",
+                "libprocessgroup",
+                "libutils",
+                "libsecaudioinfo",
+                "libaudio_soundtrigger",
+                "libsamsungVoipResampler",
+                "librecordalive",
+                "libaudio_log_utils",
+                "android.hardware.power@1.2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "camera.msm8998",
     owner: "samsung",
     strip: {
@@ -18009,6 +18007,41 @@ cc_prebuilt_library_shared {
                 "libaudioutils",
                 "libcutils",
                 "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liba2dpoffload",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/liba2dpoffload.so",
+            ],
+            shared_libs: [
+                "libaudioutils",
+                "libcutils",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libexpat",
+                "libsecaudioinfo",
+                "libaudio_soundtrigger",
+                "libsamsungVoipResampler",
+                "librecordalive",
                 "libc++",
                 "libc",
                 "libm",
@@ -18593,6 +18626,75 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libcirrusspkrprot",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libcirrusspkrprot.so",
+            ],
+            shared_libs: [
+                "libaudioutils",
+                "libcutils",
+                "liblog",
+                "libtinyalsa",
+                "libaudioroute",
+                "libexpat",
+                "libsecaudioinfo",
+                "libaudio_soundtrigger",
+                "libsamsungVoipResampler",
+                "librecordalive",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcomprcapture",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libcomprcapture.so",
+            ],
+            shared_libs: [
+                "libaudioutils",
+                "libcutils",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libexpat",
+                "libsecaudioinfo",
+                "libaudio_soundtrigger",
+                "libsamsungVoipResampler",
+                "librecordalive",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libcppf",
     owner: "samsung",
     strip: {
@@ -18696,6 +18798,41 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libexthwplugin",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libexthwplugin.so",
+            ],
+            shared_libs: [
+                "libaudioroute",
+                "libaudioutils",
+                "libcutils",
+                "libexpat",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libsecaudioinfo",
+                "libaudio_soundtrigger",
+                "libsamsungVoipResampler",
+                "librecordalive",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libflash_pmic",
     owner: "samsung",
     strip: {
@@ -18722,6 +18859,41 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libhdmiedid",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libhdmiedid.so",
+            ],
+            shared_libs: [
+                "libaudioutils",
+                "libcutils",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libexpat",
+                "libsecaudioinfo",
+                "libaudio_soundtrigger",
+                "libsamsungVoipResampler",
+                "librecordalive",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libhdmipassthru",
     owner: "samsung",
     strip: {
@@ -18734,6 +18906,41 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libaudioparsers",
+                "libaudioroute",
+                "libaudioutils",
+                "libcutils",
+                "libexpat",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libsecaudioinfo",
+                "libaudio_soundtrigger",
+                "libsamsungVoipResampler",
+                "librecordalive",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libhfp",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libhfp.so",
+            ],
+            shared_libs: [
                 "libaudioroute",
                 "libaudioutils",
                 "libcutils",
@@ -21609,6 +21816,76 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsndmonitor",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libsndmonitor.so",
+            ],
+            shared_libs: [
+                "libaudioutils",
+                "libcutils",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libexpat",
+                "libsecaudioinfo",
+                "libaudio_soundtrigger",
+                "libsamsungVoipResampler",
+                "librecordalive",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libspkrprot",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libspkrprot.so",
+            ],
+            shared_libs: [
+                "libaudioutils",
+                "libcutils",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libexpat",
+                "libsecaudioinfo",
+                "libaudio_soundtrigger",
+                "libsamsungVoipResampler",
+                "librecordalive",
                 "libc++",
                 "libc",
                 "libm",
