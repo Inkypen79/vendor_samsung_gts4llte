@@ -22114,14 +22114,14 @@ cc_prebuilt_library_shared {
                 "android.hardware.drm@1.0",
                 "android.hardware.drm@1.1",
                 "android.hardware.drm@1.2",
+                "android.hardware.drm@1.3",
                 "android.hidl.memory@1.0",
                 "libbase",
+                "libcrypto-v33",
                 "libhidlbase",
                 "libhidlmemory",
-                "libhidltransport",
-                "libhwbinder",
                 "liblog",
-                "libprotobuf-cpp-lite-vendorcompat",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "libutils",
                 "libc++",
                 "libc",
@@ -24377,21 +24377,20 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.drm@1.2-service.widevine",
+    name: "android.hardware.drm@1.3-service.widevine",
     owner: "samsung",
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine",
+                "proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine",
             ],
             shared_libs: [
                 "android.hardware.drm@1.0",
                 "android.hardware.drm@1.1",
                 "android.hardware.drm@1.2",
+                "android.hardware.drm@1.3",
                 "libbase",
                 "libhidlbase",
-                "libhidltransport",
-                "libhwbinder",
                 "liblog",
                 "libutils",
                 "libwvhidl",
