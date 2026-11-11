@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/system/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
     vendor/samsung/gts4llte/proprietary/system/etc/audio_effects_tdm.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects_tdm.xml \
     vendor/samsung/gts4llte/proprietary/system/etc/media_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_profiles.xml \
-    vendor/samsung/gts4llte/proprietary/system/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/samsung/gts4llte/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07010000000000000000000000000000.tlbin \
     vendor/samsung/gts4llte/proprietary/vendor/etc/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Bluetooth_cal.acdb \
     vendor/samsung/gts4llte/proprietary/vendor/etc/Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Codec_cal.acdb \
@@ -202,7 +201,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     vendor/samsung/gts4llte/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
     vendor/samsung/gts4llte/proprietary/vendor/etc/seccomp_policy/mediaextractor_sec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor_sec.policy \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
+    vendor/samsung/gts4llte/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/samsung/gts4llte/proprietary/vendor/etc/snap_gpu_kernel_32.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_32.bin \
     vendor/samsung/gts4llte/proprietary/vendor/etc/snap_gpu_kernel_64.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_64.bin \
     vendor/samsung/gts4llte/proprietary/vendor/etc/somxreg.conf:$(TARGET_COPY_OUT_VENDOR)/etc/somxreg.conf \
@@ -292,6 +291,7 @@ PRODUCT_PACKAGES += \
     libq3dtools_esx \
     android.hardware.gnss@2.0-impl-qti \
     gatekeeper.msm8998 \
+    sensors.msm8998 \
     vendor.qti.gnss@3.0-impl \
     vendor.qti.hardware.iop@2.0-impl \
     vendor.qti.hardware.qseecom@1.0-impl \
@@ -571,7 +571,6 @@ PRODUCT_PACKAGES += \
     libxtadapter \
     sensor_calibrate \
     sensors.grip \
-    sensors.ssc \
     libasphere \
     libaudioeffectoffload \
     libaudiosaplus_sec \
