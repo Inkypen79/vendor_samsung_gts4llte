@@ -104,7 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/snap_utility.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snap_utility.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vaultkeeper_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vaultkeeper_common.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@2.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
@@ -134,8 +133,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/libnfc-qrd_rf1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd_rf1.conf \
     vendor/samsung/gts4llte/proprietary/vendor/etc/libnfc-qrd_rf2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd_rf2.conf \
     vendor/samsung/gts4llte/proprietary/vendor/etc/listen_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/listen_platform_info.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/lm/ReferenceFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/ReferenceFeature.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/samsung/gts4llte/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/media_codecs_ac4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_ac4.xml \
@@ -159,24 +156,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/samsung/gts4llte/proprietary/vendor/etc/mtu-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtu-conf.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/pdpcnt-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pdpcnt-conf.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/perf/perf-profile1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile1.conf \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/perf/perf-profile2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile2.conf \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/perf/perf-profile3.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile3.conf \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/perf/perf-profile4.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile4.conf \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/perf/perf-profile5.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile5.conf \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/perf/perf-profile6.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile6.conf \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
     vendor/samsung/gts4llte/proprietary/vendor/etc/plmn_delta_attaio.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_attaio.bin \
     vendor/samsung/gts4llte/proprietary/vendor/etc/plmn_delta_hktw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_hktw.bin \
     vendor/samsung/gts4llte/proprietary/vendor/etc/plmn_delta_usagsm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_usagsm.bin \
     vendor/samsung/gts4llte/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
     vendor/samsung/gts4llte/proprietary/vendor/etc/process_authenticator/pa_config:$(TARGET_COPY_OUT_VENDOR)/etc/process_authenticator/pa_config \
     vendor/samsung/gts4llte/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/samsung/gts4llte/proprietary/vendor/etc/public.libraries.txt.backup:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt.backup \
@@ -293,7 +277,6 @@ PRODUCT_PACKAGES += \
     gatekeeper.msm8998 \
     sensors.msm8998 \
     vendor.qti.gnss@3.0-impl \
-    vendor.qti.hardware.iop@2.0-impl \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
@@ -444,8 +427,6 @@ PRODUCT_PACKAGES += \
     libpadm \
     libpdmapper \
     libpdnotifier \
-    libperfconfig \
-    libperfgluelayer \
     libperipheral_client \
     libprofileparamstorage \
     libpvr \
@@ -468,11 +449,6 @@ PRODUCT_PACKAGES += \
     libqsap_sdk \
     libqseed3 \
     libqsocket \
-    libqti-iopd-client \
-    libqti-perfd-client \
-    libqti-perfd \
-    libqti-util \
-    libqti-utils \
     libqtigef \
     libqtikeymaster4 \
     libril \
@@ -602,8 +578,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.connection@1.1 \
     vendor.qti.hardware.data.dynamicdds@1.0 \
     vendor.qti.hardware.data.latency@1.0 \
-    vendor.qti.hardware.iop@1.0 \
-    vendor.qti.hardware.iop@2.0 \
     vendor.qti.hardware.qdutils_disp@1.0 \
     vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
@@ -866,19 +840,12 @@ PRODUCT_PACKAGES += \
     keystore.msm8998 \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@2.0-impl \
-    libadaptlaunch \
-    libappclassifier \
     libbtnv \
-    libgameoptfeature \
     libkeymaster2_mdfpp \
     libkeymaster_helper_vendor \
     libkeystore-engine-wifi-hidl \
     libkeystore-wifi-hidl \
-    liblearningmodule \
     libmdmimgload \
-    libmeters-ns \
-    libmeters \
-    libreffeature \
     libsoc_helper \
     libthermalioctl \
     libvkservice \
@@ -947,7 +914,6 @@ PRODUCT_PACKAGES += \
     mfgloader \
     rild \
     vendor.display.color@1.0-service \
-    vendor.qti.hardware.perf@2.0-service \
     vendor.qti.hardware.qdutils_disp@1.0-service-qti \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
