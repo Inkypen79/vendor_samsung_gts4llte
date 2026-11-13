@@ -101,7 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/pa_daemon_qsee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pa_daemon_qsee.rc \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/init/snap_utility.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snap_utility.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vaultkeeper_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vaultkeeper_common.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
@@ -111,12 +110,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.base@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.base@1.0-service.rc \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.snap@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.snap@1.1-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.trustonic.tee@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.trustonic.teeregistry@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.teeregistry@1.0-service.rc \
@@ -186,8 +181,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
     vendor/samsung/gts4llte/proprietary/vendor/etc/seccomp_policy/mediaextractor_sec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor_sec.policy \
     vendor/samsung/gts4llte/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/snap_gpu_kernel_32.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_32.bin \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/snap_gpu_kernel_64.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_64.bin \
     vendor/samsung/gts4llte/proprietary/vendor/etc/somxreg.conf:$(TARGET_COPY_OUT_VENDOR)/etc/somxreg.conf \
     vendor/samsung/gts4llte/proprietary/vendor/etc/str/str_preference_data.dat:$(TARGET_COPY_OUT_VENDOR)/etc/str/str_preference_data.dat \
     vendor/samsung/gts4llte/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
@@ -281,7 +274,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
     vendor.samsung.hardware.gnss@2.0-impl-sec \
-    vendor.samsung.hardware.snap@1.1-impl \
     vulkan.msm8998 \
     libAlacSwDec \
     libApeSwDec \
@@ -489,14 +481,6 @@ PRODUCT_PACKAGES += \
     libsnaace \
     libsnamrnb \
     libsnamrwb \
-    libsnap_caffe \
-    libsnap_caffe_wrapper \
-    libsnap_compute \
-    libsnap_compute_wrapper \
-    libsnap_v1.samsung \
-    libsnap_vndk \
-    libsnaplite_native \
-    libsnaplite_wrapper \
     libsns_low_lat_stream_stub \
     libsomx263dsw \
     libsomx264dsw \
@@ -598,8 +582,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.radio.bridge@2.0 \
     vendor.samsung.hardware.radio.channel@2.0 \
-    vendor.samsung.hardware.snap@1.0 \
-    vendor.samsung.hardware.snap@1.1 \
     P08UL_libTsAccmFront \
     P08UL_libTsAeFront \
     P08UL_libTsAwbFront \
@@ -852,9 +834,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.fm@1.0 \
-    vendor.samsung.hardware.base@1.0 \
-    vendor.samsung.hardware.media.converter@1.0 \
-    vendor.samsung.hardware.miscpower@2.0 \
     vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0 \
     vendor.samsung.hardware.security.widevine.keyprovisioning@1.0 \
     vendor.samsung.hardware.wifi.supplicant@2.0 \
@@ -879,7 +858,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     android.hardware.gnss@2.0-service-qti.xml \
     vendor.qti.gnss@3.0-service.xml \
-    vendor.samsung.hardware.base@1.0-service.xml \
     PktRspTest \
     StoreKeybox \
     adpl \
@@ -919,11 +897,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qteeconnector@1.0-service \
     vendor.qti.hardware.soter@1.0-service \
     vendor.qti.hardware.tui_comm@1.0-service-qti \
-    vendor.samsung.hardware.base@1.0-service \
-    vendor.samsung.hardware.media.converter@1.0-service \
-    vendor.samsung.hardware.miscpower@2.0-service \
     vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service \
-    vendor.samsung.hardware.snap@1.1-service \
     vendor.samsung.hardware.wifi@2.0-service \
     vendor.trustonic.tee@1.0-service \
     vendor.trustonic.teeregistry@1.0-service \
@@ -954,8 +928,6 @@ PRODUCT_PACKAGES += \
     secure_ui_sample_client \
     sensors.qti \
     sigma_dut \
-    snap_utility_32 \
-    snap_utility_64 \
     spectraltool \
     ssr_diag \
     ssr_setup \
