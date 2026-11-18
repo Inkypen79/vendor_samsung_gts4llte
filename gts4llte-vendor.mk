@@ -112,7 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc \
-    vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.trustonic.tee@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/vendor.trustonic.teeregistry@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.teeregistry@1.0-service.rc \
     vendor/samsung/gts4llte/proprietary/vendor/etc/init/wifi_qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_qcom.rc \
@@ -837,7 +836,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0 \
     vendor.samsung.hardware.security.widevine.keyprovisioning@1.0 \
     vendor.samsung.hardware.wifi.supplicant@2.0 \
-    vendor.samsung.hardware.wifi@2.0 \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.teeregistry@1.0 \
     vendor_lib_rfsa_adsp_libadsp_hvx_add_constant_so \
@@ -898,7 +896,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.soter@1.0-service \
     vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor.samsung.hardware.security.hdcp.keyprovisioning@1.0-service \
-    vendor.samsung.hardware.wifi@2.0-service \
     vendor.trustonic.tee@1.0-service \
     vendor.trustonic.teeregistry@1.0-service \
     irsc_util \
